@@ -104,6 +104,11 @@ public class Business {
 	public void setStars(double stars) {
 		this.stars = stars;
 	}
+	
+	@Override
+	public String toString() {
+		return ""+this.businessName;
+	}
 
 	@Override
 	public int hashCode() {
